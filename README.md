@@ -66,19 +66,19 @@ porto-disthakt/
 
 ## Screenshot halaman
 ### 1. Beranda (Home)
-![Halaman Beranda](/porto-disthakt/src/docs/screenshots/1BERANDA.png)
+![Halaman Beranda](/src/docs/screenshots/1BERANDA.png)
 
 ### 2. Tentang Kami (About)
-![Halaman Tentang Kami](/porto-disthakt/src/docs/screenshots/2TENTANG.png)
+![Halaman Tentang Kami](/src/docs/screenshots/2TENTANG.png)
 
 ### 3. Layanan (Services)
-![Halaman Layanan](/porto-disthakt/src/docs/screenshots/3LAYANAN.png)
+![Halaman Layanan](/src/docs/screenshots/3LAYANAN.png)
 
 ### 4. Portofolio (Portfolio)
-![Halaman Portofolio](/porto-disthakt/src/docs/screenshots/4PORTOFOLIO.png)
+![Halaman Portofolio](/src/docs/screenshots/4PORTOFOLIO.png)
 
 ### 5. Kontak (Contact)
-![Halaman Kontak](/porto-disthakt/src/docs/screenshots/5KONTAK.png)
+![Halaman Kontak](/src/docs/screenshots/5KONTAK.png)
 
 File Screenshots Berada Di Folder `/src/docs/screenshots`.
 

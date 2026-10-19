@@ -1,9 +1,9 @@
 # Revaldisthakt Studio | React + Tailwind CSS
 
-**Nama  :** Revaldy Dearly Zaliandy  
-**NIM   :** 2511035  
-**Kelas :** Pendidikan Ilmu Komputer C (Semester 3)  
-**Matkul:** Pemrograman Internet
+**Nama   :** Revaldy Dearly Zaliandy  
+**NIM    :** 2511035  
+**Kelas  :** Pendidikan Ilmu Komputer C (Semester 3)  
+**Matkul :** Pemrograman Internet (Pak Yogi Prasetyo)
 
 ## Deskripsi
 Website company profile/portofolio untuk Revaldisthakt Studio, identitas proyek kreatif yang berangkat dari portofolio Revaldy. Website menampilkan informasi tentang profil, visi dan misi, area layanan, dokumentasi proyek pembelajaran, serta formulir kontak dengan validasi sederhana.
@@ -11,11 +11,11 @@ Website company profile/portofolio untuk Revaldisthakt Studio, identitas proyek 
 Konten dan gambar diadaptasi dari portofolio HTML, CSS, dan JavaScript sebelumnya. Implementasi ini menggunakan React, React Router, Tailwind CSS v4, komponen yang dapat digunakan ulang, serta data array yang dirender menggunakan `map()`.
 
 ## Halaman
-1. **Beranda** (`/`)            : Hero, ringkasan, layanan unggulan, proyek pilihan.
-2. **Tentang** (`/about`)       : Cerita singkat, visi-misi, nilai kerja, profil dan fokus tim.
-3. **Layanan** (`/services`)    : Daftar area layanan dan alur kerja.
-4. **Portofolio** (`/portfolio`): Galeri enam dokumentasi proyek pembelajaran.
-5. **Kontak** (`/contact`)      : Formulir nama, email, pesan dengan validasi sisi klien, lokasi, dan tautan sosial.
+1. **Beranda** (`/`) : Hero, ringkasan, layanan unggulan, proyek pilihan.
+2. **Tentang** (`/about`) : Cerita singkat, visi-misi, nilai kerja, profil dan fokus tim.
+3. **Layanan** (`/services`) : Daftar area layanan dan alur kerja.
+4. **Portofolio** (`/portfolio`) : Galeri enam dokumentasi proyek pembelajaran.
+5. **Kontak** (`/contact`) : Formulir nama, email, pesan dengan validasi sisi klien, lokasi, dan tautan sosial.
 
 ## Teknologi
 - React + Vite
@@ -29,9 +29,10 @@ Pastikan Node.js dan npm telah terpasang.
 
 ```bash
 npm install
+npm --version
 npm run dev
 ```
-
+Lalu, tekan `O + Enter` untuk membuka situs Anda (Perintah help gunakan `H + Enter`).
 Buka alamat lokal yang ditampilkan Vite di terminal. Untuk menguji build produksi:
 
 ```bash

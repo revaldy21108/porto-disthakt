@@ -1,20 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-
 # Revaldisthakt Studio | React + Tailwind CSS
 
 **Nama  :** Revaldy Dearly Zaliandy  
@@ -82,16 +65,41 @@ porto-disthakt/
 ```
 
 ## Screenshot halaman
-Simpan screenshot aktual dari kelima halaman setelah menjalankan aplikasi, lalu letakkan di `docs/screenshots/` dengan nama berikut:
-- `home.png`
-- `about.png`
-- `services.png`
-- `portfolio.png`
-- `contact.png`
+### 1. Beranda (Home)
+![Halaman Beranda](/porto-disthakt/src/docs/screenshots/1BERANDA.png)
 
-README ini menyiapkan daftar screenshot yang dibutuhkan. Screenshot aktual belum disertakan karena perlu diambil dari aplikasi yang sudah dijalankan pada browser.
+### 2. Tentang Kami (About)
+![Halaman Tentang Kami](/porto-disthakt/src/docs/screenshots/2TENTANG.png)
+
+### 3. Layanan (Services)
+![Halaman Layanan](/porto-disthakt/src/docs/screenshots/3LAYANAN.png)
+
+### 4. Portofolio (Portfolio)
+![Halaman Portofolio](/porto-disthakt/src/docs/screenshots/4PORTOFOLIO.png)
+
+### 5. Kontak (Contact)
+![Halaman Kontak](/porto-disthakt/src/docs/screenshots/5KONTAK.png)
+
+File Screenshots Berada Di Folder `/src/docs/screenshots`.
 
 ## Catatan
 - Formulir kontak melakukan validasi di browser, belum mengirim data ke backend atau email.
 - Kartu kedua dan ketiga di bagian tim merupakan **area fokus layanan**, bukan identitas orang yang diklaim sebagai anggota tim.
 - Folder `node_modules/` dan hasil build `dist/` tidak disertakan dalam repository.
+
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the Oxlint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.

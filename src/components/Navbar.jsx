@@ -19,7 +19,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/85 backdrop-blur-xl">
       <div className="section-wrap flex min-h-[76px] items-center justify-between gap-4">
         <NavLink to="/" onClick={() => setOpen(false)} className="focus-ring flex items-center gap-3 rounded-xl">
-          <span className="grid size-10 place-items-center rounded-xl bg-cyan-300 font-bold text-slate-950">D.</span>
+          <span className="grid size-10 place-items-center rounded-xl bg-cyan-300 font-bold text-slate-950">RS</span>
           <span className="leading-tight">
             <span className="block text-sm font-bold tracking-wide text-white">Revaldisthakt</span>
             <span className="block text-[10px] tracking-[.2em] text-slate-400">Studio</span>
@@ -42,7 +42,7 @@ export default function Navbar() {
               {link.label}
             </NavLink>
           ))}
-          <NavLink to="/contact" onClick={() => setOpen(false)} className="focus-ring mt-2 rounded-full bg-cyan-300 px-5 py-2.5 text-center text-sm font-bold text-slate-950 transition hover:bg-cyan-200 md:ml-2 md:mt-0">
+          <NavLink to="/contact" onClick={() => setOpen(false)} className="focus-ring mt-2 rounded-full bg-cyan-300 px-5 py-2.5 text-center text-sm font-bold text-black! transition hover:bg-cyan-200 md:ml-2 md:mt-0">
             Diskusi proyek ↗
           </NavLink>
         </nav>

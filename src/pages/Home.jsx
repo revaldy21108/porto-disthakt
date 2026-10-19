@@ -19,8 +19,8 @@ export default function Home() {
               Ruang untuk mengembangkan ide digital melalui website yang responsif, dukungan teknologi informasi, dan dokumentasi kreatif. Dibangun dari perjalanan belajar Revaldy di bidang komputer.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <Link to="/portfolio" className="focus-ring rounded-full bg-cyan-300 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-200">Lihat portofolio ↗</Link>
-              <Link to="/about" className="focus-ring rounded-full border border-white/15 px-6 py-3 font-semibold text-white transition hover:border-cyan-200/60 hover:text-cyan-100">Kenali kami</Link>
+              <Link to="/portfolio" className="focus-ring rounded-full bg-cyan-300 px-6 py-3 font-semibold !text-black transition hover:bg-cyan-200">Lihat Portofolio ↗</Link>
+              <Link to="/about" className="focus-ring rounded-full border border-white/15 px-6 py-3 font-semibold text-white transition hover:border-cyan-200/60 hover:text-cyan-100">Kenali Kami</Link>
             </div>
             <div className="mt-12 grid max-w-lg grid-cols-3 gap-4 border-t border-white/10 pt-6">
               <div><p className="text-2xl font-bold text-white">03</p><p className="mt-1 text-xs text-slate-500 sm:text-sm">Area layanan</p></div>
@@ -31,7 +31,7 @@ export default function Home() {
           <div className="relative mx-auto w-full max-w-md lg:max-w-none">
             <div className="absolute inset-8 rounded-[3rem] bg-cyan-300/15 blur-3xl" />
             <div className="glass-card float-slow relative mx-auto max-w-sm overflow-hidden rounded-4xl p-3 sm:p-4">
-              <img src="/images/home-profile.png" alt="Ilustrasi profil dari portofolio asli Revaldy" className="aspect-4/5 w-full rounded-3xl object-cover object-center" />
+              <img src="/src/img/home-profile.png" alt="Ilustrasi profil dari portofolio asli Revaldy" className="aspect-4/5 w-full rounded-3xl object-cover object-center" />
               <div className="absolute inset-x-7 bottom-7 rounded-2xl border border-white/15 bg-slate-950/80 p-4 backdrop-blur-xl">
                 <p className="text-xs uppercase tracking-[.2em] text-cyan-200">Digital Maker</p>
                 <p className="mt-1 text-lg font-semibold text-white">Revaldy Dearly Z.</p>
@@ -65,7 +65,7 @@ export default function Home() {
       <section className="section-wrap py-20 sm:py-24">
         <div className="glass-card flex flex-col items-start justify-between gap-7 rounded-4xl p-7 sm:p-10 lg:flex-row lg:items-center">
           <div className="max-w-2xl"><p className="eyebrow mb-3">Punya ide?</p><h2 className="section-title">Mari wujudkan <span className="text-gradient">proyek berikutnya.</span></h2><p className="mt-4 leading-7 text-slate-400">Ceritakan kebutuhan atau ide yang ingin kamu kembangkan.</p></div>
-          <Link to="/contact" className="focus-ring shrink-0 rounded-full bg-cyan-300 px-6 py-3 font-semibold text-slate-950 hover:bg-cyan-200">Hubungi kami ↗</Link>
+          <Link to="/contact" className="focus-ring shrink-0 rounded-full bg-cyan-300 px-6 py-3 font-semibold text-black! hover:bg-cyan-200">Hubungi Kami ↗</Link>
         </div>
       </section>
     </>

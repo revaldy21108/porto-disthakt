@@ -12,8 +12,8 @@ export default function About() {
     <>
       <section className="soft-grid border-b border-white/5 py-20 sm:py-28">
         <div className="section-wrap grid items-center gap-12 lg:grid-cols-[1fr_.8fr]">
-          <SectionHeading eyebrow="Tentang Revaldisthakt" title={<>Ide sederhana, dibuat menjadi <span className="text-gradient">karya digital.</span></>} description="DISthakt Digital Studio adalah identitas proyek kreatif yang berangkat dari portofolio dan perjalanan belajar Revaldy. Fokusnya menggabungkan pengembangan web, pengetahuan IT, serta dokumentasi digital." />
-          <div className="glass-card rounded-4xl p-3"><img src="/images/about-profile.png" alt="Gambar profil dari portofolio asli Revaldy" className="max-h-[440px] w-full rounded-3xl object-cover" /></div>
+          <SectionHeading eyebrow="Tentang Revaldisthakt" title={<>Ide sederhana, dibuat menjadi <span className="text-gradient">karya digital.</span></>} description="Revaldisthakt Studio adalah identitas proyek kreatif yang berangkat dari portofolio dan perjalanan belajar Revaldy. Fokusnya menggabungkan pengembangan web, pengetahuan IT, serta dokumentasi digital." />
+          <div className="glass-card rounded-4xl p-3"><img src="/src/img/about-profile.png" alt="Gambar profil dari portofolio asli Revaldy" className="max-h-[440px] w-full rounded-3xl object-cover" /></div>
         </div>
       </section>
 

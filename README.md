@@ -24,7 +24,7 @@ Konten dan gambar diadaptasi dari portofolio HTML, CSS, dan JavaScript sebelumny
 - CSS manual hanya untuk font, reset dasar, dan beberapa efek dekoratif
 - `Navbar`, `Footer`, `Card`, `ProjectCard`, dan `SectionHeading` sebagai komponen reusable
 
-## Cara menjalankan
+## Cara Menjalankan
 Pastikan Node.js dan npm telah terpasang.
 
 ```bash
@@ -39,7 +39,7 @@ npm run build
 npm run preview
 ```
 
-## Struktur folder
+## Struktur Folder
 
 ```text
 porto-disthakt/
@@ -64,12 +64,12 @@ porto-disthakt/
 '-- vite.config.js
 ```
 
-## Screenshot halaman
+## Screenshot Halaman
 ### 1. Beranda (Home)
 ![Halaman Beranda](/src/docs/screenshots/1BERANDA.png)
 
-### 2. Tentang Kami (About)
-![Halaman Tentang Kami](/src/docs/screenshots/2TENTANG.png)
+### 2. Tentang (About)
+![Halaman Tentang](/src/docs/screenshots/2TENTANG.png)
 
 ### 3. Layanan (Services)
 ![Halaman Layanan](/src/docs/screenshots/3LAYANAN.png)
